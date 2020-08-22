@@ -1,0 +1,6 @@
+1. SELECT empolyees .last_name, ' works for ', m.last_name
+   FROM employees e, employees m
+   WHERE e.department_id = m.depatrtment_id
+
+2.SELECT e.last_name, ' works for ', m.last_name)
+FROM employees
