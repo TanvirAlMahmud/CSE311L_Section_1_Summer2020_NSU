@@ -1,0 +1,5 @@
+1. SELECT * FROM `employees` AVG(salary), MAX(salary),
+   MIN(salary), SUM(salary)
+
+2.select department_id, min(salary) , max(salary) as Salary_Range
+from Employees
