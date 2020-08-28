@@ -1,0 +1,14 @@
+
+1. SELECT Last_Name, Salary AS 'Daily Salary',Dept_id from employees
+
+2.SELECT last_name,job_id "Employee and Title"
+FROM employees;
+
+
+4.SELECT last_name, dept_id , hire_date 
+FROM employees 
+WHERE dept_id 
+
+5.SELECT last_name, hire_date 
+FROM employees
+ WHERE hire_date 
