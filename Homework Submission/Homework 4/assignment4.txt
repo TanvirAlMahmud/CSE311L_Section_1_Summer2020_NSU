@@ -1,0 +1,9 @@
+
+
+4. SELECT first_name,last_name,job_id,COUNT(*) 
+FROM employees 
+GROUP BY job_id
+
+5.SELECT last_name, salary, commission_pct 
+FROM employees 
+WHERE commission_pct IS NOT NULL ORDER BY Salary,commission_pct
